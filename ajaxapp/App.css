@@ -1,0 +1,61 @@
+.main-title {
+    margin: 1rem;
+    font-size: 24pt;
+}
+
+#userId {
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 22pt;
+    margin: 1.5rem 1rem 0.5rem;
+}
+
+#userId:focus {
+    outline:none;
+}
+
+#btnGetUserInfo {
+    background-color: skyblue;
+    border: 0px solid #ccc;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-size: 14pt;
+    font-weight: 700;
+    margin-bottom:0.5rem;
+}
+
+.container {
+    display: flex;
+    margin: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 650px;
+}
+
+.img-container { 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+}
+
+.info-container {
+    margin: 1rem;
+}
+
+.list-title { 
+    font-weight: 700;
+    font-size: 18pt;
+    margin: 1rem 1rem 2rem 1rem;
+}
+
+.info-list > li {
+    list-style: none;
+    font-size: 14pt;
+}
